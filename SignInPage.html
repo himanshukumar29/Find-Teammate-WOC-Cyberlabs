@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "Style1.css">
+        <title>Sign In Page</title>
+    </head>
+    
+    <body>
+        <p><h1 style="font-size :60px; font-family:'Courier New', Courier, monospace;">Find teammate</h1></p>
+        <h2>|<a href="SignInPage.html">HOME</a>|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+            <a href="#">ABOUT US</a>|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+            <a href="#"> CONTACTS</a>|</h2>
+
+    <div id = "Sign-In-Page">
+        <img src="img2.png  ">
+        <h1>Sign In</h1>
+        <form id = Sign-In-Form>
+            <input type="email" id = "email" class="input-box" placeholder="Email">
+            <input type="password" id = "password" class="input-box" placeholder="password">
+            <p><span><input type="checkbox" id="checkbox1"></span>I agree to all terms and conditions</p>
+            <button type="button" onclick="login()" class="SignIn-Button">Sign In</button>
+            <hr>
+            <p id="or">OR</p>
+            <button type="button" class="Google-Button">Sign In with Google</button>
+            <p>New to Find Teammate? Register Now<br> <a href="SignUpPage_2.html">Sign Up</a></p>
+        </form>
+    </div> 
+    </body> 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js">
+
+    </script>
+    <script src="firebase.js"></script>
+    <script src="SignInPage.js"></script>
+
+
+    
+</html>
