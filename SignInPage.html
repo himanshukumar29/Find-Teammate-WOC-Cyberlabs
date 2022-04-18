@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "Style1.css">
+        <title>Sign In Page</title>
+    </head>
+    
+    <body>
+
+
+            <nav>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <a href="#" class="nav-btn" ><br><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >Home</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <a href="aboutus.html" class="nav-btn"  ><br><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >About Us</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <a href="contactus.html" class="nav-btn" ><br><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >Contact Us</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                </nav>
+        <header>
+           <h1 style="font-size :60px; font-family:'Courier New', Courier, monospace;">   &nbsp;  FIND TEAMMATE</h1>
+        </header>
+        
+      
+
+    <div id = "Sign-In-Page">
+        <img style = "border-radius: 10px;" src="img2.png  ">
+        <h1>Sign In</h1>
+        <form id = Sign-In-Form>
+            <small><span id = "error" style = "color:red"></span>   </small>
+            <input type="email" id = "email" class="input-box" placeholder="Email">
+            <input type="password" id = "password" class="input-box" placeholder="password">
+            <p><h3><span><input type="checkbox" id="checkbox1"></span>I agree to all terms and conditions</h3></p>
+            <button type="button" onclick="login()" class="SignIn-Button">Sign In</button>
+            <hr>
+            <p id="or">OR</p>
+            <!-- <button type="button" class="Google-Button">Sign In with Google</button> -->
+            <p><h3>New to Find Teammate? Register Now<br> <a href="SignUpPage_2.html">Sign Up</a></h3></p>
+        </form>
+    </div> <br><br><br>
+
+    <section>
+        <div class="about" >
+          <h2 style = "color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-size: larger; text-align: center;" > Struggling To Find A Partner To Work On  A project.
+              Find Your TeamMate Here.</h2>
+          
+            <h3>Website for finding Teammate</h3>
+            <p style = "font-style: italic ; font-size: large;" >Join Today . Share your info . Find Your TeamMate and Let Others Find You
+  
+              <br>
+              <br>
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        &emsp;&emsp;&emsp;&emsp;
+        <a href="FAQ.html"><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >FAQ</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="TermsandPrivacy.html"><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >Terms of Use & Privacy Policy</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         &copy; |Find Teammate
+        <br><br>
+    </footer>
+    </body> 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js">
+
+    </script>
+    <script src="firebase.js"></script>
+    <script src="SignInPage.js"></script>
+
+
+    
+</html>

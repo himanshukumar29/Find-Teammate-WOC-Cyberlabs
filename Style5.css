@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: sans-serif; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(169,169,241);
+  
+  
+   
+    
+}    
+h1{
+    color : rgb(32, 30, 141);
+    border : 10px rgb(27, 97, 124) ;
+    font-weight: bold;
+    font-size: xx-large;
+    
+
+}
+div{
+    width: 400px;
+    border-width: 10px;
+    background: rgb(131, 164, 213);
+    padding: 50px 50px 50px 50px;
+    margin-top: 150px ;
+    margin-left : 850px;
+    margin-bottom: 40px;
+    box-shadow : 20px 20px 20px 20px rgba(17, 19, 27, 0.3);
+    text-align: center;
+    border-radius: 25px;
+
+}
+nav{
+    display: flex;
+    overflow: hidden;
+    font-weight: 600px;
+    font-size: xx-large;
+    
+    top: 0;
+    width : 125%;
+}
+.nav-btn:hover {
+    background-color: rgb(84, 95, 220);
+    color: rgb(16, 13, 91);
+
+}    
+footer{
+    font-weight: 600px;
+    font-size: xx-large
+}    

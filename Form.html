@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style2.css">
+    <title>Form Page</title>
+</head>
+<body>
+  <nav>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <a href="SignInPage.html" class="nav-btn" ><br><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >Home</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <a href="aboutus.html" class="nav-btn"  ><br><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >About Us</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <a href="contactus.html" class="nav-btn" ><br><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >Contact Us</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  </nav>
+<header>
+<br><br><br><br><h1 style="font-size :60px; font-family:'Courier New', Courier, monospace;">&nbsp;FIND TEAMMATE</h1>
+</header>
+
+<div id="Form-Page">
+    <img style = "border-radius: 10px;" src="img2.png  ">
+    <h1>Edit Your Profile</h1>
+    <form>
+        <input type="Full Name" class="input-box" placeholder="Full Name" id = "namefield">
+        <input type="College" class="input-box" placeholder="College" id = "collegefield">
+        <input type="Contact no" class="input-box" placeholder="Contact No." id = "contact">
+        <input type="Email" class="input-box" placeholder="Email" id = "Email">
+        <br> <br>
+        
+
+        <label for="Gender"><h2 style="color: black; text-align: center;">Gender</h2></label>
+    <select id="Gender">
+      <option value="">--Gender--</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select><br><br><br>
+    <label for="Year Of Study"><h2 style="color: black; text-align: center;">Year Of Study</h2></label>
+    <select id="yearfield">
+      <option value="">--Select--</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select><br><br><br>
+        <input type="Skills" class="input-box" placeholder="Main Skills" id = "skill-field"><br><br>
+        <input type="Techstack" class="input-box" placeholder="Techstack" id = "techstackfield"><br><br>
+        <input type="Github Account" class="input-box" placeholder="Github Account" id = "github-field"><br><br>
+        <input type="Linked In Profile" class="input-box" placeholder="Linked In Profile" id = "linked-field"><br><br><br><br>
+        
+        <button onclick= "writeData()"  type="button" class="Save-Button">Save</button><br><br>
+        <button onclick= "replace()"  type="button" class="Button">Let's Find Teammate</button>
+        
+    </form>
+</div>
+
+<footer>
+  &emsp;&emsp;&emsp;&emsp;
+  <a href="FAQ.html"><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >FAQ</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <a href="TermsandPrivacy.html"><span style="color:rgb(9, 243, 133); font-size: xx-large;font-weight: bolder ;" >Terms of Use & Privacy Policy</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &copy; |Find Teammate
+  <br><br>
+</footer>
+
+
+</body>
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-storage.js"></script>
+<script src="firebase.js"></script>
+<script src="form.js"></script>
+
+
+</html>
